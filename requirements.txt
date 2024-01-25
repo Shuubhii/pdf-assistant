@@ -1,4 +1,5 @@
-python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
+#git+https://github.com/facebookresearch/detectron2.git
+-f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.9/index.htmldetectron2
 streamlit 
 langchain
 unstructured
@@ -13,7 +14,7 @@ tiktoken
 #Cython
 # "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
 #unstructured[local-inference]
-#CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" pip install 'git+https://github.com/facebookresearch/detectron2.git'
+
 #layoutparser[layoutmodels,tesseract]
 # !npm install localtunnel
 
