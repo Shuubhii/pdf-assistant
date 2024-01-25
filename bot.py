@@ -8,6 +8,9 @@ import time
 import os
 from langchain.document_loaders import UnstructuredPDFLoader
 from langchain.indexes import VectorstoreIndexCreator
+from unstructured.partition.pdf import partition_pdf
+import unstructured
+import cv2
 #from detectron2.config import get_cfg
 
 os.environ["OPENAI_API_KEY"] = st.secrets["API-KEY"]
@@ -36,7 +39,7 @@ st.sidebar.write("""
 
 
  # upload file
-file = st.sidebar.file_uploader("Upload your PDF to start Interacting", type="pdf")
+file = st.sidebar.file_uploader("Upload your PDF", type="pdf")
 
 def save_temp_file(uploaded_file):
     temp_dir = "temp_files"
@@ -50,7 +53,7 @@ def save_temp_file(uploaded_file):
 path=""
 index=""
 if file:
-  st.sidebar.success(f"File uploaded: {file.name}")
+  st.sidebar.success("File uploaded")
   path=save_temp_file(file)
   index=pdf_model(path)
 
