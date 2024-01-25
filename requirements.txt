@@ -1,9 +1,7 @@
 streamlit 
-langchain
-unstructured
-openai
-tiktoken
-unstructured[local-inference]
 langchain-community
-#opencv-python
-
+langchain
+openai
+PyPDF2
+faiss-cpu
+tiktoken
