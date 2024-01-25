@@ -5,5 +5,5 @@ openai
 tiktoken
 unstructured[local-inference]
 langchain-community
-cv2
+opencv-python
 
