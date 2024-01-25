@@ -1,16 +1,19 @@
+python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 streamlit 
 langchain
 unstructured
 openai
-PyPDF2
-faiss-cpu
 tiktoken
-pytesseract
-pybind11
-chromadb
-Cython
+
+#PyPDF2
+#faiss-cpu
+#pytesseract
+#pybind11
+#chromadb
+#Cython
 # "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
-unstructured[local-inference]
-CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" pip install 'git+https://github.com/facebookresearch/detectron2.git'
-layoutparser[layoutmodels,tesseract]
+#unstructured[local-inference]
+#CC=clang CXX=clang++ ARCHFLAGS="-arch x86_64" pip install 'git+https://github.com/facebookresearch/detectron2.git'
+#layoutparser[layoutmodels,tesseract]
 # !npm install localtunnel
+
