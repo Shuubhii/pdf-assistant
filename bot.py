@@ -26,7 +26,7 @@ text_folder = '/content/48lawsofpower.pdf'
 
 
 st.sidebar.title("PDF-Assistant")
-st.sidebar.write("# Welcome to the time machine demo 👋")
+st.sidebar.write("# :blue[Welcome to the demo] 👋")
 
 st.sidebar.write("""
             Please go ahead and:
