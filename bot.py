@@ -10,7 +10,7 @@ from langchain.document_loaders import UnstructuredPDFLoader
 from langchain.indexes import VectorstoreIndexCreator
 from unstructured.partition.pdf import partition_pdf
 import unstructured
-import cv2
+#import cv2
 #from detectron2.config import get_cfg
 
 os.environ["OPENAI_API_KEY"] = st.secrets["API-KEY"]
