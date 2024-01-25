@@ -1,19 +1,8 @@
-
 streamlit 
 langchain
 unstructured
 openai
 tiktoken
-
-#PyPDF2
-#faiss-cpu
-#pytesseract
-#pybind11
-#chromadb
-#Cython
-# "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
-#unstructured[local-inference]
-
-#layoutparser[layoutmodels,tesseract]
-# !npm install localtunnel
+unstructured[local-inference]
+langchain-community
 
